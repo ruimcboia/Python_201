@@ -1,0 +1,11 @@
+#ignore entire folder
+tests/testdata
+venv
+.vscode
+
+#ignore excel, and png files, use ! for exceptions
+#example - !do_not_ignore_this_file.xlsm
+#or - !img.png
+*.xlsm
+*.xlsx
+*.png
